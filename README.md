@@ -6,7 +6,10 @@
 clean_data.ipynb takes in json datatables found at zenodo link and converts to usable data frames
 
 TODO
-1. regex 'body' data in 'comments' dataframe
-2. get toxicity and severe toxicity scores from [perspective api](https://www.perspectiveapi.com/)
-3. analyze data - get daily comments, submissions, daily active users, toxicity over time
-4. create viz
+1. Data sanity check
+  - convert the POSIX timestamps in 'created_utc' into human readable format
+  - run quick viz to see if any data is missing
+4. regex 'body' data in 'comments' dataframe
+5. get toxicity and severe toxicity scores from [perspective api](https://www.perspectiveapi.com/)
+6. analyze data - get daily comments, submissions, daily active users, toxicity over time
+7. create viz
