@@ -9,7 +9,7 @@ TODO
 1. Data sanity check
   - convert the POSIX timestamps in 'created_utc' into human readable format
   - run quick viz to see if any data is missing
-4. regex 'body' data in 'comments' dataframe
-5. get toxicity and severe toxicity scores from [perspective api](https://www.perspectiveapi.com/)
-6. analyze data - get daily comments, submissions, daily active users, toxicity over time
-7. create viz
+2. regex 'body' data in 'comments' dataframe
+3. get toxicity and severe toxicity scores from [perspective api](https://www.perspectiveapi.com/)
+4. analyze data - get daily comments, submissions, daily active users, toxicity over time
+5. create viz
