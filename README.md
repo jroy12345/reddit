@@ -1,15 +1,18 @@
 # 221 Data Curation and Management Reddit r/TheRedPill
 
-- dataset [link](https://zenodo.org/record/6386942)
-- contains both tables
+This repository contains the code that we have used in our project so far.
 
-clean_data.ipynb takes in json datatables found at zenodo link and converts to usable data frames
+trp_data_grabber.ipynb contains the API calls to collect the data from the Pushshift Archive.
+
+The collected data for both the submission and comments data resides at a zenodo link available [here](https://zenodo.org/record/6386942).
+
+
+clean_data.ipynb takes in the json datatables available at the zenodo link and converts this to workable dataframes. It has a data sanity check at the bottom to confirm which months are present in the dataset.
+
 
 TODO
-1. Data sanity check
-  - convert the POSIX timestamps in 'created_utc' into human readable format
-  - run quick viz to see if any data is missing
-2. regex 'body' data in 'comments' dataframe
-3. get toxicity and severe toxicity scores from [perspective api](https://www.perspectiveapi.com/)
-4. analyze data - get daily comments, submissions, daily active users, toxicity over time
-5. create viz
+1. Clean the 'body' data in 'comments' dataframe to be used in [Perspective API](https://www.perspectiveapi.com/)
+2. Get toxicity and severe toxicity scores from [Perspective API](https://www.perspectiveapi.com/)
+3. Load scores into existing comments dataframe
+4. Analyze data - get daily comments, submissions, daily active users, toxicity over time
+5. Create visualizations
