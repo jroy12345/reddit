@@ -13,7 +13,7 @@ clean_data.ipynb takes in the json datatables available at the zenodo link and c
 TODO
 1. Clean the 'body' data in 'comments' dataframe to be used in [Perspective API](https://www.perspectiveapi.com/)
   - potentially done using NLTK or regex
-3. Get toxicity and severe toxicity scores from [Perspective API](https://www.perspectiveapi.com/)
-4. Load scores into existing comments dataframe
-5. Analyze data - get daily comments, submissions, daily active users, toxicity over time
-6. Create visualizations
+2. Get toxicity and severe toxicity scores from [Perspective API](https://www.perspectiveapi.com/)
+3. Load scores into existing comments dataframe
+4. Analyze data - get daily comments, submissions, daily active users, toxicity over time
+5. Create visualizations
