@@ -12,7 +12,7 @@ clean_data.ipynb takes in the json datatables available at the zenodo link and c
 
 
 ## RQ1 - Activity in the Subreddit
-Hemant's analysis.ipynb file contains the analysis
+analysis_RQ1.ipynb file contains grouped data table for each data for easy visualization
 
 TODO RQ1
 - Create Visualizations
