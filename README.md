@@ -21,13 +21,5 @@ TODO RQ1
 ## RQ2 - Toxicity/Misogyny
 
 TODO RQ2
-1. Clean the 'body' data in 'comments' dataframe to be used comparing to the [lexicon dictionaries](https://raw.githubusercontent.com/miriamfs/WebSci2019/master/Lexicon.txt)
-    - remove rows where comments were removed/deleted
-2. Tokenize comments
-    - separate each 'body' comment into a list of words
-    - using regex
-3. For each word in each comment, compare against lexicon dictionary data
-4. Get count of number of words in each dictionary for each comment
-5. Load scores into existing comments dataframe
-6. Analyze data - get different dictionary scores over time
-7. Create visualizations
+
+- Create visualizations
