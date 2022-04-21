@@ -2,14 +2,14 @@
 
 This repository contains the code that we have used in our project so far.
 
-trp_data_grabber.ipynb contains the API calls to collect the data from the Pushshift Archive.
+Our zenodo link available [here](https://zenodo.org/record/6474336) contains all of the datasets used between analysis files.
+The files were too large to be hosted directly on github.
 
-The collected data for both the submission and comments data resides at a zenodo link available [here](https://zenodo.org/record/6386942).
+trp_data_grabber.ipynb contains the API calls to collect the data from the Pushshift Archive and outputs the trp_submissions and trp_comments json objects.
 
-The filtered data after 'clean_data_RQ1.ipynb' is available [here](https://zenodo.org/record/6468360).
+clean_data_initial takes in trp_comments.json and returns the filtered_comments_json.
 
-
-clean_data.ipynb takes in the json datatables available at the zenodo link and converts this to workable dataframes. It has a data sanity check at the bottom to confirm which months are present in the dataset.
+clean_data_RQ2 takes in the filtered_comments.json as well as the lexicon dictionaries courtesy of 1] Farrell, Tracie; Fernandez, Miriam; Novotny, Jakub and Alani, Harith (2019). Exploring Misogyny across the Manosphere in Reddit. In: WebSci '19 Proceedings of the 10th ACM Conference on Web Science, pp. 87–96. http://oro.open.ac.uk/61128/1/WebScience139.pdf. Their github is available [here](https://github.com/miriamfs/WebSci2019). The notebook returns the comments_rq2.json file.
 
 
 ## RQ1 - Activity in the Subreddit
