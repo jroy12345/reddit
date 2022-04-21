@@ -14,13 +14,11 @@ Farrell, Tracie; Fernandez, Miriam; Novotny, Jakub and Alani, Harith (2019). Exp
 
 
 ## RQ1 - Activity in the Subreddit
-analysis_RQ1.ipynb file contains grouped data table for each data for easy visualization
 
 TODO RQ1
-- Create Visualizations
+- Create visualizations in analysis_RQ1
 
 ## RQ2 - Toxicity/Misogyny
 
 TODO RQ2
-
-- Create visualizations
+- Create visualizations in analysis_RQ2
