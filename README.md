@@ -12,13 +12,9 @@ clean_data_initial takes in trp_comments.json and returns the filtered_comments_
 clean_data_RQ2 takes in the filtered_comments.json as well as the lexicon dictionaries courtesy of:
 Farrell, Tracie; Fernandez, Miriam; Novotny, Jakub and Alani, Harith (2019). Exploring Misogyny across the Manosphere in Reddit. In: WebSci '19 Proceedings of the 10th ACM Conference on Web Science, pp. 87–96. http://oro.open.ac.uk/61128/1/WebScience139.pdf. Their github is available [here](https://github.com/miriamfs/WebSci2019). The notebook returns the comments_rq2.json file.
 
-
-## RQ1 - Activity in the Subreddit
-
-TODO RQ1
-- Create visualizations in analysis_RQ1
-
-## RQ2 - Toxicity/Misogyny
-
-TODO RQ2
-- Create visualizations in analysis_RQ2
+The order to run files is as follows:
+1. trp_data_grabber.ipynb
+2. clean_data_initial.ipynb
+3. analysis_RQ1.ipynb
+4. clean_data_RQ2.ipynb
+5. analysis_RQ1.ipynb
