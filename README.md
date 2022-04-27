@@ -17,4 +17,4 @@ The order to run files is as follows:
 2. clean_data_initial.ipynb
 3. analysis_RQ1.ipynb
 4. clean_data_RQ2.ipynb
-5. analysis_RQ1.ipynb
+5. analysis_RQ2.ipynb
